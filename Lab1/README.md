@@ -31,8 +31,8 @@ Source code structure:
   * **/nfd/** is a 3rd party open source software that brings up file explorer/finder windows
   * **/src/main.cpp** is the application's entry point
   * **/src/setup/**
-    * **PolygonObject.cpp** an instance of it stores an object's geometric data in local space and current (camera or screen) space
-    * **Xformations.cpp** an instance of it stores an object's viewing specs and creates the three transformation matrices
+    * **PolygonObject.cpp** provides an instance that stores an object's geometric data in local space and current (camera or screen) space
+    * **Xformations.cpp** provides an instance that stores an object's viewing specs and creates the three transformation matrices
     * **FileLoader.cpp** loads data in .d file into an instance of **PolygonObject**; loads data in .txt file into an instance of **Xformations**
   * **/src/ui/**  
     * **StringUtils.cpp** generates and prints strings about viewing specs in the bottom-left corner of the viewport
