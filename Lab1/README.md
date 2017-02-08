@@ -12,16 +12,14 @@ Input:
          3. camera's reference point (where it's looking at)
          4. camera's up vector
          5. the distance, positive real number, between camera's position and the image plane 
-   
-   
-Output:
-------
-  * 3d data drawn in **left-handed** screen coordinated system with back-facing polygons removed
+Data Flow:
+---------
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 Demo clip:
 ---------
-[![Play at youtube.com](https://img.youtube.com/vi/fFu08kVndPQ/0.jpg)](https://youtu.be/fFu08kVndPQ)
+[![Play at youtube.com](https://img.youtube.com/vi/fFu08kVndPQ/0.jpg "Play at youtube.com")](https://youtu.be/fFu08kVndPQ)
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=fFu08kVndPQ
 " target="_blank"><img src="http://img.youtube.com/vi/fFu08kVndPQ/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="Play at youtube.com" width="240" height="180" border="10" /></a>
