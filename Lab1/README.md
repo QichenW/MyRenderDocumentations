@@ -1,5 +1,6 @@
 **Model-View-Projection Render**
 ================================
+Qichen Wang, G24147928
 Input:
 -----
    1. Object geometric data in **right-handed** model coordinate system (in a .d file under **/data**)
@@ -16,3 +17,7 @@ Input:
 Output:
 ------
   * 3d data drawn in **left-handed** screen coordinated system with back-facing polygons removed
+
+Demo clip:
+---------
+[![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/fFu08kVndPQ/hqdefault.jpg)](https://youtu.be/fFu08kVndPQ)
