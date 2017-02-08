@@ -20,4 +20,4 @@ Output:
 
 Demo clip:
 ---------
-[![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/fFu08kVndPQ/hqdefault.jpg)](https://youtu.be/fFu08kVndPQ)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fFu08kVndPQ/0.jpg)](https://youtu.be/fFu08kVndPQ)
