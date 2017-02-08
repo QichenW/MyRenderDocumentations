@@ -25,7 +25,7 @@ Data flow
 ---------
 ![flow chart](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab1/data_flow.png "Data flow chart of the software")
 
-Source code structure:
+Source code structure
 ----------------------
   * **/CMakeLists.txt** is the configurations to compile the project
   * **/data/** contains model geometric data (.d) files and viewing specs (.txt) files
