@@ -21,3 +21,7 @@ Output:
 Demo clip:
 ---------
 [![Play at youtube.com](https://img.youtube.com/vi/fFu08kVndPQ/0.jpg)](https://youtu.be/fFu08kVndPQ)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=fFu08kVndPQ
+" target="_blank"><img src="http://img.youtube.com/vi/fFu08kVndPQ/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
