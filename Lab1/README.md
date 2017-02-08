@@ -20,4 +20,4 @@ Output:
 
 Demo clip:
 ---------
-[[Play at youtube.com](https://img.youtube.com/vi/fFu08kVndPQ/0.jpg)](https://youtu.be/fFu08kVndPQ)
+[![Play at youtube.com](https://img.youtube.com/vi/fFu08kVndPQ/0.jpg)](https://youtu.be/fFu08kVndPQ)
