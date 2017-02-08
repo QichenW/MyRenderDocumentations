@@ -11,8 +11,8 @@ Screenshots:
 
 Input:
 -----
-   1. Object geometric data in **right-handed** model coordinate system (in a .d file under **/data**)
-   2. View Specifications (in a .txt file under **/data**):
+   1. Object geometric data in a **right-handed** model coordinate system (from a .d file)
+   2. View Specifications (from a .txt file):
       1. Object's Euler angles (pitch, yaw, roll of object) in degrees
       2. In **right-handed** world coordinate system:
          1. object's position
