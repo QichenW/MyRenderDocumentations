@@ -29,11 +29,11 @@ Source code structure:
 ----------------------
   * **/data/** contains model geometric data (.d) files and viewing specs (.txt) files
   * **/nfd/** is a 3rd party open source software that brings up file explorer/finder windows
-  * **/src/main.cpp** is the application's entry
+  * **/src/main.cpp** is the application's entry point
   * **/src/setup/**
     * **PolygonObject.cpp** an instance of it stores an object's geometric data in local space and current (camera or screen) space
     * **Xformations.cpp** an instance of it stores an object's viewing specs and creates the three transformation matrices
-    * **FileLoader.cpp** loads data in .d file into an instance of **PolygonObject**;loads data in .txt file into an instance of **Xformations**
+    * **FileLoader.cpp** loads data in .d file into an instance of **PolygonObject**; loads data in .txt file into an instance of **Xformations**
   * **/src/ui/**  
     * **StringUtils.cpp** generates and prints strings about viewing specs in the bottom-left corner of the viewport
     * **UserInputManager.cpp** creates a right-click menu and items in it then define their behaviors
@@ -46,6 +46,7 @@ Source code structure:
 
 Demo video:
 ---------
-The source code can be compiled into a software to create frames and animations. Click the image to play the demo video.
+The source code can be compiled into a software to create frames and animations. 
+Click the image below to play the demo video.
 
 [![Play at youtube.com](https://img.youtube.com/vi/fFu08kVndPQ/0.jpg "Play at youtube.com")](https://youtu.be/fFu08kVndPQ)
