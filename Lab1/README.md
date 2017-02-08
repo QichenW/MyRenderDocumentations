@@ -2,14 +2,14 @@
 ================================
 by *Qichen Wang*, G24147928
 
-Screenshots:
+Screenshots
 -----------
 ![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab1/screenshot_1.png "screenshot 1")
 ![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab1/screenshot_2.png "screenshot 2")
 ![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab1/screenshot_3.png "screenshot 3")
 ![screenshot 4](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab1/screenshot_4.png "screenshot 4")
 
-Input:
+Input
 -----
    1. Object geometric data in a **right-handed** model coordinate system (from a .d file)
    2. View Specifications (from a .txt file):
@@ -21,7 +21,7 @@ Input:
          4. camera's up vector
          5. the distance, positive real number, between camera's position and the image plane 
 
-Data flow:
+Data flow
 ---------
 ![flow chart](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab1/data_flow.png "Data flow chart of the software")
 
@@ -44,7 +44,7 @@ Source code structure:
     * **DrawPolygons.cpp** draw polygons of an object in 3d screen space
     
 
-Demo video:
+Demo video
 ---------
 The source code can be compiled into a software to create frames and animations. 
 Click the image below to play the demo video.
