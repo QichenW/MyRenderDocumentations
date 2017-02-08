@@ -27,6 +27,7 @@ Data flow
 
 Source code structure:
 ----------------------
+  * **/CMakeLists.txt** is the configurations to compile the project
   * **/data/** contains model geometric data (.d) files and viewing specs (.txt) files
   * **/nfd/** is a 3rd party open source software that brings up file explorer/finder windows
   * **/src/main.cpp** is the application's entry point
