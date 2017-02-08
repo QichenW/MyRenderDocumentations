@@ -14,7 +14,7 @@ Input:
          5. the distance, positive real number, between camera's position and the image plane 
 Data Flow:
 ---------
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![flow chart](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab1/data_flow.png "Data flow chart of the software")
 
 Demo clip:
 ---------
