@@ -39,10 +39,10 @@ Source code structure
     * **StringUtils.cpp** generates and prints strings about viewing specs in the bottom-left corner of the viewport
     * **UserInputManager.cpp** creates a right-click menu and items in it then define their behaviors
   * **/src/matrix/**  
-    * **VectorCalculation.cpp** primitive Maths for vector and matrix calculation 
-    * **RotationHelper.cpp** Maths used in creating transformation matrices
+    * **VectorCalculation.cpp** contains primitive Maths for vector and matrix calculation 
+    * **RotationHelper.cpp** contains Maths used in creating transformation matrices
   * **/src/draw/**  
-    * **DrawPolygons.cpp** draw polygons of an object in 3d screen space
+    * **DrawPolygons.cpp** draws polygons of an object in 3d screen space
     
 
 Demo video
