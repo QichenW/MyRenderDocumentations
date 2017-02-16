@@ -48,6 +48,7 @@ Source code structure
 Demo video
 ---------
 The source code can be compiled into a software to create frames and animations. 
+
 Click the image below to play the demo video.
 
 [![Play at youtube.com](https://img.youtube.com/vi/fFu08kVndPQ/0.jpg "Play at youtube.com")](https://youtu.be/fFu08kVndPQ)
