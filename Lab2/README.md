@@ -31,10 +31,10 @@ Source code structure
 
   * **/src/main.cpp** is the application's entry point
   * **/src/setup/**
-    * **PolygonObject.cpp** provides an instance that stores an object's geometric data in local space and current (camera or screen) space
-    * **ModelXformation.cpp** provices instances that store information about each object's rigid transformation from model coordinate to world coordinate system, and create the model transformation matrix
+    * **PolygonObject.cpp** provides instances that store all objects' geometric data in local space **statically** and current (world, camera, screen or device/viewport) spaces
+    * **ModelXformation.cpp** provices instances that store information about each object's rigid transformation from model coordinate to world coordinate system, and create the model transformation matrices
     * **VandPxformations.cpp** provides an instance that stores viewing specs about camera and viewing frustum, and creates the view and perspective transformation matrices
-    * **FileLoader.cpp** loads data in .d file into an instance of **PolygonObject**; loads data in .txt file into an instance of **Xformations**
+    * **FileLoader.cpp** loads data in .d file then **statically** stores it in **PolygonObject**; loads specifications in .txt file into an instance of **VandPxformations** and several instances of **ModelXformation**
   * **/src/ui/**  
     * **UserInputManager.cpp** creates a right-click menu and items in it then define their behaviors
     * **StringUtils.cpp** generates and prints strings about viewing specs in the bottom-left corner of the viewport using openGL's api, for demostration only
@@ -42,7 +42,7 @@ Source code structure
     * **VectorCalculation.cpp** contains primitive Maths for vector and matrix calculation 
     * **XformationHelper.cpp** contains Maths used in creating transformation matrices
   * **/src/draw/**  
-    * **DrawPolygons.cpp** given the data after perspective transformation, do device transformation then scan conversion with Z-buffer algorithm to calculate the RGB value of each pixel, finally draw the polygons of all objects in the viewport with hidden surface removed
+    * **DrawPolygons.cpp** provides functions that given the data after perspective transformation, do device (viewport) transformation then scan conversion with Z-buffer algorithm to calculate the RGB value of each pixel, and finally draw the polygons of all objects in the viewport with hidden surfaces removed
   * **/src/data/**
     * **Pixel.cpp** provides instances that store RGB values of a pixel
     * **EdgeEntry.cpp** provides instances to be stored in the edge tables (xmin, ymax, slope)
