@@ -12,7 +12,7 @@ Screenshots
 
 Demo video
 ---------
-The source code can be compiled into a software to create frames and animations. Click the image below to play the demo video.
+This render is capable of creating animations. Click the image below to play the demo video.
 
 [![Play at youtube.com](https://img.youtube.com/vi/KykG2CJM3TA/0.jpg "Play at youtube.com")](https://youtu.be/KykG2CJM3TA)
 
