@@ -10,6 +10,12 @@ Screenshots
 ![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab2/screenshot_2.png "screenshot 2")
 ![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab2/screenshot_3.png "screenshot 3")
 
+Demo video
+---------
+The source code can be compiled into a software to create frames and animations. Click the image below to play the demo video.
+
+[![Play at youtube.com](https://img.youtube.com/vi/KykG2CJM3TA/0.jpg "Play at youtube.com")](https://youtu.be/KykG2CJM3TA)
+
 Input
 -----
    1. Object geometric data in a **right-handed** model coordinate system (from a .d file)
