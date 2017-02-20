@@ -1,6 +1,6 @@
-**Model-View-Projection Render**
+**Render (Model-View-Projection, scan conversion, Z-Buffer Algorithm)**
 ================================
-by *Qichen Wang*, G24147928
+Created by *Qichen Wang*, G24147928 on Feb 19, 2017
 
 Screenshots
 -----------
