@@ -29,18 +29,24 @@ Data flow
 Source code structure
 ----------------------
   * **/CMakeLists.txt** is the configurations to compile the project
-  * **/data/** contains model geometric data (.d) files and viewing specs (.txt) files
+  * **/input/** contains model geometric data (.d) files and viewing specs (.txt) files
   * **/nfd/** is a 3rd party open source software that brings up file explorer/finder windows
   * **/src/main.cpp** is the application's entry point
   * **/src/setup/**
     * **PolygonObject.cpp** provides an instance that stores an object's geometric data in local space and current (camera or screen) space
-    * **Xformations.cpp** provides an instance that stores an object's viewing specs and creates the three transformation matrices
+    * **ModelXformation.cpp** 
+    * **VandPxformations.cpp** provides an instance that stores an object's viewing specs and creates the three transformation matrices
     * **FileLoader.cpp** loads data in .d file into an instance of **PolygonObject**; loads data in .txt file into an instance of **Xformations**
   * **/src/ui/**  
-    * **StringUtils.cpp** generates and prints strings about viewing specs in the bottom-left corner of the viewport
     * **UserInputManager.cpp** creates a right-click menu and items in it then define their behaviors
-  * **/src/matrix/**  
+    * **StringUtils.cpp** generates and prints strings about viewing specs in the bottom-left corner of the viewport
+* **/src/matrix/**  
     * **VectorCalculation.cpp** contains primitive Maths for vector and matrix calculation 
-    * **RotationHelper.cpp** contains Maths used in creating transformation matrices
+    * **XformationHelper.cpp** contains Maths used in creating transformation matrices
   * **/src/draw/**  
-    * **DrawPolygons.cpp** draws polygons of an object in 3d screen space
+    * **DrawPolygons.cpp** given the data after perspective transformation, do device transformation then scan conversion with Z-buffer algorithm to calculate the RGB value of each pixel, finally draw the polygons of all objects in the viewport with hidden surface removed
+  * **/src/data/**
+    * **Pixel.cpp** provides instances that store RGB values of a pixel
+    * **EdgeEntry.cpp** provides instances to be stored in the edge tables (xmin, ymax, slope)
+    * **EdgeTable.cpp** provides instances function as the edge table (ET) and active edge table (AET) for scan conversion with z-buffer algorithm, where ymin, depth_min, depth_slope are also recorded (and needs to be migrated to EdgeEntry.cpp in the next phase of this project)
+    
