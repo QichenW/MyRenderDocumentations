@@ -14,13 +14,14 @@ Input
 -----
    1. Object geometric data in a **right-handed** model coordinate system (from a .d file)
    2. View Specifications (from a .txt file):
-      1. Object's Euler angles (pitch, yaw, roll of object) in degrees
-      2. In **right-handed** world coordinate system:
-         1. object's position
-         2. camera's position
-         3. camera's reference point (where it's looking at)
-         4. camera's up vector
-         5. the distance, positive real number, between camera's position and the image plane 
+      1. number of objects
+      2. each object's Euler angles (pitch, yaw, roll of object) in degrees
+      3. In **right-handed** world coordinate system:
+         1. each object's position
+         2. the camera's position
+         3. the camera's reference point (where it's looking at)
+         4. the camera's up vector
+         5. the half x- and half y-span of the viewing frustum's near size, the distances between the camera's position and the viewing frustum's near size and between it and the far size
 
 Data flow
 ---------
