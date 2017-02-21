@@ -19,7 +19,7 @@ Input
          2. camera's position
          3. camera's reference point (where it's looking at)
          4. camera's up vector
-         5. the distance, positive real number, between camera's position and the image plane 
+         5. the half x- and half y-span of the viewing frustum's near size, the distances between the camera's position and the viewing frustum's near size and between it and the far size
 
 Data flow
 ---------
