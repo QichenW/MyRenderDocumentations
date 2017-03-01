@@ -2,7 +2,7 @@
 ================================
    *Model-View-Projection, scan conversion, Z-Buffer Algorithm*
    -------------------------------------------------------------
-Created by *Qichen Wang* on Feb 19, 2017
+Created by *Qichen Wang* on Mar 1st, 2017
 
 Screenshots
 -----------
