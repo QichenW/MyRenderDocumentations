@@ -1,6 +1,6 @@
 **Render**
 ================================
-   *Model-View-Projection, scan conversion, Z-Buffer Algorithm*
+   *Phong's Illumination Model, Constant Shading, Gouraud Shading, Phong Shading*
    -------------------------------------------------------------
 Created by *Qichen Wang* on Mar 1st, 2017
 
