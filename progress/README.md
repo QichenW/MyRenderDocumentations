@@ -31,7 +31,7 @@ Input
 
 Data flow
 ---------
-![flow chart](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab2/data_flow_2.png "Data flow chart of the software")
+![flow chart](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/data_flow.png "Data flow chart of the software")
 
 Source code structure
 ----------------------
