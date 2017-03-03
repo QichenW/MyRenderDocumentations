@@ -8,7 +8,7 @@ Screenshots
 -----------
 ![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab3/screenshot_3.png "screenshot 1")
 ![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab2/screenshot_1.png "screenshot 2")
-![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab1/screenshot_1.png "screenshot 3")
+![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab1/screenshot__1.png "screenshot 3")
 
 Demo video
 ---------
