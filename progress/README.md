@@ -6,15 +6,15 @@ Created by *Qichen Wang* on Feb 19, 2017
 
 Screenshots
 -----------
-![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab2/screenshot_1.png "screenshot 1")
-![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab2/screenshot_2.png "screenshot 2")
-![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab2/screenshot_3.png "screenshot 3")
+![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab3/screenshot_3.png "screenshot 1")
+![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab2/screenshot_1.png "screenshot 2")
+![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab1/screenshot_1.png "screenshot 3")
 
 Demo video
 ---------
 This render is capable of creating animations on-the-fly. Click the image below to play the demo video.
 
-[![Play at youtube.com](https://img.youtube.com/vi/KykG2CJM3TA/0.jpg "Play at youtube.com")](https://youtu.be/Wvm5dK3C2i0)
+[![Play at youtube.com](https://img.youtube.com/vi/Wvm5dK3C2i0/0.jpg "Play at youtube.com")](https://youtu.be/Wvm5dK3C2i0)
 
 Input
 -----
