@@ -1,13 +1,16 @@
 **Render**
 ================================
-   *Phong's Illumination Model, Constant Shading, Gouraud Shading, Phong Shading*
+   *3D transformations, Rasterization, Illumination, Shading*
    -------------------------------------------------------------
-Created by *Qichen Wang* on Mar 1st, 2017
+Created by *Qichen Wang* on Mar 5th, 2017
 
 Screenshots
 -----------
+**Phong shading**
 ![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab3/screenshot_1.png "screenshot 1")
+**Gouraud shading**
 ![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab3/screenshot_2.png "screenshot 2")
+**Constant shading**
 ![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab3/screenshot_3.png "screenshot 3")
 
 Demo video
@@ -54,8 +57,8 @@ Source code structure
     * **DrawPolygons.cpp** provides functions that given the data after perspective transformation, do device (viewport) transformation then scan conversion with Z-buffer algorithm to figure out the correct RGB value of each pixel, and finally draw the polygons of all objects in the viewport with hidden surfaces removed
   * **/src/data/**
     * **Pixel.cpp** provides instances that store the RGB value of a pixel
-    * **EdgeEntry.cpp** provides instances to be stored in the edge tables (xmin, ymax, slope)
-    * **EdgeTable.cpp** provides instances that function as the edge table (ET) and active edge table (AET) for scan conversion with z-buffer algorithm, where ymin, depth_min, depth_slope are also recorded (and needs to be migrated to EdgeEntry.cpp in the next phase of this project)
+    * **EdgeEntry.cpp** provides instances to be stored in the edge tables (ymin, xmin, ymax, slope, depth_min, depth_slope)
+    * **EdgeTable.cpp** provides instances that function as the edge table (ET) and active edge table (AET) for scan conversion with z-buffer algorithm
   * **/input/** contains model geometric data (.d) files and viewing specs (.txt) files
   * **/nfd/** is a 3rd party open source software that brings up file explorer/finder windows
   * **/CMakeLists.txt** is the configurations to compile the project
