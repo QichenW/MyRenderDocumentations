@@ -17,7 +17,7 @@ Demo video
 ---------
 This render is capable of creating animations on-the-fly. Click the image below to play the demo video.
 
-[![Play at youtube.com](https://img.link.here.qw "Play at youtube.com")](https://video.link.here.qw)
+[![Play at youtube.com](https://img.youtube.com/vi/Ju4PKdSVo7g/0.jpg "Play at youtube.com")](https://youtu.be/Ju4PKdSVo7g)
 
 Input
 -----
@@ -46,6 +46,7 @@ Source code structure
     * **PolygonObject.cpp** provides instances that store all objects' geometric data in local space **statically** and in the current (world, camera, screen or device/viewport) space **seperately**
     * **ModelXformation.cpp** provices instances that store information about each object's rigid transformation from local space to world coordinate system, and create the corresponding model transformation matrices
     * **VandPxformations.cpp** provides an instance that stores viewing specs about camera and viewing frustum, and creates the view and perspective transformation matrices
+    * **Illumination.cpp** provides instances to describe light sources and functions which, given the normal vector, calculate ambient, diffusive, specular terms of RGB intensities
     * **FileLoader.cpp** loads data in .d file then **statically** stores it in **PolygonObject**; loads specifications in .txt file into an instance of **VandPxformations** and several instances of **ModelXformation**
   * **/src/ui/**  
     * **UserInputManager.cpp** creates a right-click menu and items in it then define their behaviors
