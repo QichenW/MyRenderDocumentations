@@ -1,20 +1,26 @@
 **Render**
 ================================
-   *Model-View-Projection, scan conversion, Z-Buffer Algorithm, Constant/ Gouraud/ Phong Shading, Phong illumination model*
+   *3D transformations, Rasterization, Illumination, Shading*
    -------------------------------------------------------------
-Created by *Qichen Wang* on Feb 19, 2017
+Created by *Qichen Wang*, last edited on Mar 5th, 2017
 
 Screenshots
 -----------
-![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab3/screenshot_3.png "screenshot 1")
-![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab2/screenshot_1.png "screenshot 2")
-![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab1/screenshot__1.png "screenshot 3")
-
+**Phong shading**
+![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screenshot_1.png "screenshot 1")
+**Gouraud shading**
+![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screenshot_2.png "screenshot 2")
+**Constant shading**
+![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screenshot_3.png "screenshot 3")
+**Random coloring**
+![screenshot 4](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screenshot_4.png "screenshot 4")
+**Wireframe**
+![screenshot 5](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screenshot_5.png "screenshot 5")
 Demo video
 ---------
 This render is capable of creating animations on-the-fly. Click the image below to play the demo video.
 
-[![Play at youtube.com](https://img.youtube.com/vi/Wvm5dK3C2i0/0.jpg "Play at youtube.com")](https://youtu.be/Wvm5dK3C2i0)
+[![Play at youtube.com](https://img.youtube.com/vi/Ju4PKdSVo7g/0.jpg "Play at youtube.com")](https://youtu.be/Ju4PKdSVo7g)
 
 Input
 -----
@@ -22,16 +28,18 @@ Input
    2. View Specifications (from a .txt file):
       1. number of objects
       2. each object's Euler angles (pitch, yaw, roll of object) in degrees
-      3. In **right-handed** world coordinate system:
+      3. each object's color (RGB intensities, both diffusive and specular)
+      4. In **right-handed** world coordinate system:
          1. each object's position
          2. the camera's position
          3. the camera's reference point (where it's looking at)
          4. the camera's up vector
          5. the half x- and half y-span of the viewing frustum's near size, the distances between the camera's position and the viewing frustum's near size and between it and the far size
+         6. the vector from scene to light source (assuming the light source is infinitely far)
 
 Data flow
 ---------
-![flow chart](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/data_flow.png "Data flow chart of the software")
+![flow chart](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/data_flow_3.png "Data flow chart of the software")
 
 Source code structure
 ----------------------
@@ -41,6 +49,7 @@ Source code structure
     * **PolygonObject.cpp** provides instances that store all objects' geometric data in local space **statically** and in the current (world, camera, screen or device/viewport) space **seperately**
     * **ModelXformation.cpp** provices instances that store information about each object's rigid transformation from local space to world coordinate system, and create the corresponding model transformation matrices
     * **VandPxformations.cpp** provides an instance that stores viewing specs about camera and viewing frustum, and creates the view and perspective transformation matrices
+    * **Illumination.cpp** provides instances to describe light sources and functions which, given the normal vector, calculate ambient, diffusive, specular terms of RGB intensities
     * **FileLoader.cpp** loads data in .d file then **statically** stores it in **PolygonObject**; loads specifications in .txt file into an instance of **VandPxformations** and several instances of **ModelXformation**
   * **/src/ui/**  
     * **UserInputManager.cpp** creates a right-click menu and items in it then define their behaviors
