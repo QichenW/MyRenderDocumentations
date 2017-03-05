@@ -2,7 +2,7 @@
 ================================
    *3D transformations, Rasterization, Illumination, Shading*
    -------------------------------------------------------------
-Created by *Qichen Wang* on Mar 5th, 2017
+Created by *Qichen Wang* on Mar 3rd, 2017
 
 Screenshots
 -----------
@@ -25,7 +25,7 @@ Input
    2. View Specifications (from a .txt file):
       1. number of objects
       2. each object's Euler angles (pitch, yaw, roll of object) in degrees
-      3. each object's color (RGB intensities)
+      3. each object's color (RGB intensities, both diffusive and specular)
       4. In **right-handed** world coordinate system:
          1. each object's position
          2. the camera's position
