@@ -7,7 +7,7 @@ Created by *Qichen Wang* on Mar 3rd, 2017
 Screenshots
 -----------
 **Phong shading**
-![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screenshot__1.png "screenshot 1")
+![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab3/screenshot__1.png "screenshot 1")
 **Gouraud shading**
 ![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab3/screenshot_2.png "screenshot 2")
 **Constant shading**
