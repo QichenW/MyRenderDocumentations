@@ -6,6 +6,7 @@ Created by *Qichen Wang*, last edited on Mar 5th, 2017
 
 Screenshots
 -----------
+![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screenshot__1.png "screenshot 1")
 **Phong shading**
 ![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screenshot_1.png "screenshot 1")
 **Gouraud shading**
