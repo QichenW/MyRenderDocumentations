@@ -59,4 +59,5 @@ Source code structure
     * **EdgeTable.cpp** provides instances that function as the edge table (ET) and active edge table (AET) for scan conversion with z-buffer algorithm
   * **/input/** contains model geometric data (.d) files and viewing specs (.txt) files
   * **/nfd/** is a 3rd party open source software that brings up file explorer/finder windows
+  * **/lodepng/** is a 3rd party open source software that loads image files as RGB arrays
   * **/CMakeLists.txt** is the configurations to compile the project
