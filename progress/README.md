@@ -49,7 +49,7 @@ Input
 
 Data flow
 ---------
-![flow chart](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/data_flow_3.png "Data flow chart of the software")
+![flow chart](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/data_flow_4.png "Data flow chart of the software")
 
 Source code structure
 ----------------------
@@ -73,6 +73,7 @@ Source code structure
     * **Pixel.cpp** provides instances that store the RGB value of a pixel
     * **EdgeEntry.cpp** provides instances to be stored in the edge tables (ymin, xmin, ymax, slope, depth_min, depth_slope)
     * **EdgeTable.cpp** provides instances that function as the edge table (ET) and active edge table (AET) for scan conversion with z-buffer algorithm
-  * **/input/** contains model geometric data (.d) files and viewing specs (.txt) files
+  * **/input/** contains model geometric data (.d), viewing specs (.txt) and texture (.png) files
   * **/nfd/** is a 3rd party open source software that brings up file explorer/finder windows
+  * **/lodepng/** is a 3rd party open source software that loads image files as RGB arrays
   * **/CMakeLists.txt** is the configurations to compile the project
