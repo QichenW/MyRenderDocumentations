@@ -14,6 +14,8 @@ Screenshots
 **PNG files**
 ![alt-text-1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/stripes_green.png "title-1")![alt-text-2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/harlequin_check_purple.png "title-2")![alt-text-3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/leopard_print_yellow.png "title-3")
 
+<img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/stripes_green.png" width="300"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/harlequin_check_purple.png" width="300"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/leopard_print_yellow.png" width="300"/> 
+
 Input
 -----
    1. Object geometric data in a **right-handed** model coordinate system (from a .d file)
