@@ -6,12 +6,12 @@ Created by *Qichen Wang* on Apr 3rd, 2017
 
 Screenshots
 -----------
-**Phong shading**
+**Mapping with Phong shading**
 ![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_1.png "screenshot 1")
 ![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_2.png "screenshot 2")
 ![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_3.png "screenshot 3")
 
-**PNG files**
+**Texture input**
 
 <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/stripes_green.png" width="280"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/harlequin_check_purple.png" width="280"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/leopard_print_yellow.png" width="280"/> 
 
