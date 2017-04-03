@@ -1,6 +1,6 @@
 **Render**
 ================================
-   *3D transformations, Rasterization, Illumination, Shading*
+   *3D transformations, Rasterization, Illumination, Shading, Texture Mapping*
    -------------------------------------------------------------
 Created by *Qichen Wang* on Apr 3rd, 2017
 
