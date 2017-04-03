@@ -12,7 +12,7 @@ Screenshots
 ![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_3.png "screenshot 3")
 
 **PNG files**
-<img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/stripes_green.png" width="280"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/harlequin_check_purple.png" width="280"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/leopard_print_yellow.png" width="280"/> 
+<img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/stripes_green.png" width="275"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/harlequin_check_purple.png" width="275"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/leopard_print_yellow.png" width="275"/> 
 
 Input
 -----
