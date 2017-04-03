@@ -2,7 +2,7 @@
 ================================
    *3D transformations, Rasterization, Illumination, Shading*
    -------------------------------------------------------------
-Created by *Qichen Wang*, last edited on Mar 5th, 2017
+Created by *Qichen Wang*, last edited on Apr 3rd, 2017
 
 Screenshots
 -----------
