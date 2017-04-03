@@ -6,6 +6,15 @@ Created by *Qichen Wang*, last edited on Mar 5th, 2017
 
 Screenshots
 -----------
+**Texture Mapping with Phong shading**
+![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_1.png "screenshot 1")
+![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_2.png "screenshot 2")
+![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_3.png "screenshot 3")
+
+**Texture input**
+
+<img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/stripes_green.png" width="280"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/harlequin_check_purple.png" width="280"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/leopard_print_yellow.png" width="280"/>
+
 **Phong shading**
 ![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screenshot__1.png "screenshot 1")
 **Gouraud shading**
@@ -36,6 +45,7 @@ Input
          4. the camera's up vector
          5. the half x- and half y-span of the viewing frustum's near size, the distances between the camera's position and the viewing frustum's near size and between it and the far size
          6. the vector from scene to light source (assuming the light source is infinitely far)
+   3. Arbitrary PNG files
 
 Data flow
 ---------
