@@ -7,13 +7,13 @@ Created by *Qichen Wang*, last edited on Apr 3rd, 2017
 Screenshots
 -----------
 **Texture Mapping with Phong shading**
-![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_1.png "screenshot 1")
-![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_2.png "screenshot 2")
-![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_3.png "screenshot 3")
+![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screen_shot_1.png "screenshot 1")
+![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screen_shot_2.png "screenshot 2")
+![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screen_shot_3.png "screenshot 3")
 
 **Texture input**
 
-<img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/stripes_green.png" width="280"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/harlequin_check_purple.png" width="280"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/leopard_print_yellow.png" width="280"/>
+<img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/stripes_green.png" width="280"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/harlequin_check_purple.png" width="280"/> <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/leopard_print_yellow.png" width="280"/>
 
 **Phong shading**
 ![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screenshot__1.png "screenshot 1")
