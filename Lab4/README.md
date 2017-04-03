@@ -7,10 +7,11 @@ Created by *Qichen Wang* on Apr 3rd, 2017
 Screenshots
 -----------
 **Phong shading**
-![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screenshot_1.png "screenshot 1")
-![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screenshot_2.png "screenshot 2")
-![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screenshot_3.png "screenshot 3")
-
+![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_1.png "screenshot 1")
+![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_2.png "screenshot 2")
+![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_3.png "screenshot 3")
+**PNG files**
+![alt-text-1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screenshot1.png "title-1") ![alt-text-2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screenshot2.png "title-2") ![alt-text-3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screenshot3.png "title-3")
 Input
 -----
    1. Object geometric data in a **right-handed** model coordinate system (from a .d file)
