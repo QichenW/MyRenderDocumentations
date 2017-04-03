@@ -11,7 +11,7 @@ Screenshots
 ![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_2.png "screenshot 2")
 ![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_3.png "screenshot 3")
 **PNG files**
-![alt-text-1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screenshot_1.png "title-1") ![alt-text-2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screenshot_2.png "title-2") ![alt-text-3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screenshot_3.png "title-3")
+![alt-text-1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/stripes_green.png "title-1") ![alt-text-2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/harlequin_check_purple.png "title-2") ![alt-text-3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/leopard_print_yellow.png "title-3")
 
 Input
 -----
