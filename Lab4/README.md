@@ -6,7 +6,7 @@ Created by *Qichen Wang* on Apr 3rd, 2017
 
 Screenshots
 -----------
-**Mapping with Phong shading**
+**Two-stage Mapping with Phong shading**
 ![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_1.png "screenshot 1")
 ![screenshot 2](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_2.png "screenshot 2")
 ![screenshot 3](https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/screen_shot_3.png "screenshot 3")
