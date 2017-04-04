@@ -2,7 +2,9 @@
 ================================
    *3D transformations, Rasterization, Illumination, Shading, Texture Mapping*
    -------------------------------------------------------------
-Created by *Qichen Wang*, last edited on Apr 3rd, 2017
+by *Qichen Wang*
+
+created on Feb 8th 2017, last edited on Apr 3rd 2017
 
 Screenshots
 -----------
@@ -14,6 +16,7 @@ Screenshots
 *Texture input*
 
 <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/stripes_green.png" width="120"/><img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/harlequin_check_purple.png" width="120"/><img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/leopard_print_yellow.png" width="120"/> 
+
 
 **Phong shading**
 ![screenshot 1](https://github.com/QichenW/MyRenderDocumentations/blob/master/progress/screenshot__1.png "screenshot 1")
