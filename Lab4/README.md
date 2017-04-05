@@ -15,6 +15,12 @@ Screenshots
 
 <img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/stripes_green.png" width="120"/><img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/harlequin_check_purple.png" width="120"/><img src="https://github.com/QichenW/MyRenderDocumentations/blob/master/Lab4/leopard_print_yellow.png" width="120"/> 
 
+Demo video
+---------
+This render is capable of creating animations on-the-fly. Click the image below to play the demo video.
+
+[![Play at youtube.com](https://img.youtube.com/vi/SxIMqGQxuWE/0.jpg "Play at youtube.com")](https://youtu.be/SxIMqGQxuWE)
+
 Input
 -----
    1. Object geometric data in a **right-handed** model coordinate system (from a .d file)
